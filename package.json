@@ -1,0 +1,22 @@
+{
+  "name": "ether_dispatcher",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Loïs L.",
+  "license": "MIT",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.3.2",
+    "@openzeppelin/test-helpers": "^0.5.15",
+    "@truffle/hdwallet-provider": "^1.6.0",
+    "dotenv": "^10.0.0",
+    "truffle": "^5.4.18"
+  },
+  "devDependencies": {
+    "truffle-plugin-verify": "^0.5.18"
+  }
+}
